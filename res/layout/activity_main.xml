@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="GAME.."
+        android:textColor="#007108"
+        android:textSize="50sp"
+        android:layout_marginLeft="5dp"
+        app:fontFamily="@font/chango" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="onBeginnerClick"
+        android:text="Beginner"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:fontFamily="@font/chango" />
+
+    <TextView
+        android:id="@+id/bs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        app:fontFamily="@font/chango" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="onIntermediateClick"
+        android:text="Intermediate"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:fontFamily="@font/chango" />
+
+    <TextView
+        android:id="@+id/bs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="25sp"
+        app:fontFamily="@font/chango" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:onClick="onExpertClick"
+        android:text="Expert"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:fontFamily="@font/chango" />
+
+    <TextView
+        android:id="@+id/bs3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        app:fontFamily="@font/chango" />
+
+</LinearLayout>
